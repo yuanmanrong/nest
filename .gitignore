@@ -1,52 +1,35 @@
-# Prerequisites
-*.d
+# compiled output
+/dist
+/node_modules
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# OS
+.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
+# Tests
+/coverage
+/.nyc_output
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
